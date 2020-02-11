@@ -14,6 +14,7 @@ struct Cli {
 
 fn write_env_vars(file: &mut File) {
     for (key, value) in vars() {
+        let value = value.replace("\"", "'");
         if value.contains(" ") {
             &file.write(format!("ENV {}=\"{}\"\n", key, value).as_bytes()).unwrap();
         } else {
