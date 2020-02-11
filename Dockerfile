@@ -58,7 +58,6 @@ ENV PATH=/home/gitpod/.cargo/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/sh
 ENV PYTHONUSERBASE=/workspace/.pip-modules
 ENV APACHE_DOCROOT_IN_REPO=public
 ENV SDKMAN_PLATFORM=Linux64
-ENV VSCODE_NLS_CONFIG={'locale':'en','availableLanguages':{}}
 ENV NODE_VERSION=10.19.0
 ENV GITPOD_GIT_USER_EMAIL=seanhellum45@gmail.com
 ENV IRBRC=/home/gitpod/.rvm/rubies/ruby-2.6.3/.irbrc
